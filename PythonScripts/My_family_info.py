@@ -3,7 +3,8 @@ fam = {
     "Appa" : "Siddhu",
     "Amma" : "Gayathri Padmagireesan",
     "Siddhu" : "Siddharth",
-    "Sashu" : "Sashwati Narayanan"
+    "Sashu" : "Sashwati Narayanan",
+    "RajamPaati" : "Rajalakshmi Subramanian"
     
 }
 inp = input("Enter a member: ")
