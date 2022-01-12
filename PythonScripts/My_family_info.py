@@ -1,14 +1,19 @@
-
-fam = {
-    "Appa" : "Siddhu",
-    "Amma" : "Gayathri Padmagireesan",
-    "Siddhu" : "Siddharth",
-    "Sashu" : "Sashwati Narayanan",
-    "RajamPaati" : "Rajalakshmi Subramanian"
-    
+import sys
+while True:
+ fam = {
+"Appa" : "Narayanan",
+"Amma" : "Gayathri Padmagireesan",
+"Siddhu" : "Siddharth",
+"Sashu" : "Sashwati Narayanan",
+"Rajam Paati" : "Rajalakshmi Subramanian"
 }
-inp = input("Enter a member: ")
-if inp in fam :
+ a = 
+ inp = input("Enter a member or q to quit: ")
+ if inp in fam :
     print(inp,":",fam[inp])
-else:
+ elif inp == "q":
+     print("bye bye...")
+     sys.exit()
+     
+ else:
     print("Who's that")    
